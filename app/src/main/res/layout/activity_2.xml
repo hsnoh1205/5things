@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.button.Activity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WORLD CUP FINAL"
+        android:id="@+id/textView"
+        android:textSize="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO!"
+        android:id="@+id/btnSimple2"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1990 ITALY"
+        android:textSize="30dp"
+        android:id="@+id/textView5"
+        android:layout_alignTop="@+id/btnSimple2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO!"
+        android:id="@+id/btnSimple4"
+        android:layout_below="@+id/btnSimple2"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1994 USA"
+        android:textSize="30dp"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/btnSimple2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO!"
+        android:id="@+id/btnSimple5"
+        android:layout_below="@+id/btnSimple4"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1998 FRANCE"
+        android:textSize="30dp"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/btnSimple4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO!"
+        android:id="@+id/btnSimple6"
+        android:layout_below="@+id/btnSimple5"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2002 KOREA &amp; JAPAN"
+        android:textSize="30dp"
+        android:id="@+id/textView9"
+        android:layout_below="@+id/btnSimple5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView10"
+        android:layout_alignEnd="@+id/textView10" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO!"
+        android:id="@+id/btnSimple7"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_alignLeft="@+id/btnSimple6"
+        android:layout_alignStart="@+id/btnSimple6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2006 GERMANY"
+        android:textSize="30dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/textView10"
+
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO!"
+        android:id="@+id/btnSimple8"
+        android:layout_below="@+id/btnSimple7"
+        android:layout_alignLeft="@+id/btnSimple7"
+        android:layout_alignStart="@+id/btnSimple7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2010 SOUTH AFRICA"
+        android:textSize="30dp"
+        android:id="@+id/textView11"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView8"
+        android:layout_alignEnd="@+id/textView8" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO!"
+        android:id="@+id/btnSimple9"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_alignLeft="@+id/btnSimple8"
+        android:layout_alignStart="@+id/btnSimple8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2014 BRAZIL"
+        android:textSize="30dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
